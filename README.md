@@ -1,4 +1,4 @@
-# MedClara Web Platform
+# MedClara - AI-Powered Clinical Documentation Platform
 
 **MedClara** is an AI-powered clinical documentation platform that automatically transcribes doctor-patient conversations in 110+ languages and generates accurate, template-ready medical reports in seconds. Designed for modern, multilingual healthcare practices, MedClara eliminates manual note-taking, reduces administrative burden by 50%, and reclaims 5+ hours of clinician time daily.
 
