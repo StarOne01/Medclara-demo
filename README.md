@@ -3,6 +3,7 @@
 **DocterScribe-EMR** is an AI-powered clinical documentation platform that automatically transcribes doctor-patient conversations in 110+ languages and generates accurate, template-ready medical reports in seconds. Designed for modern, multilingual healthcare practices, DocterScribe-EMR eliminates manual note-taking, reduces administrative burden by 50%, and reclaims 5+ hours of clinician time daily.
 
 ### Impact
+
 - **5+ hours daily** - Clinicians reclaim time spent on manual documentation
 - **110+ languages** - Multilingual transcription and report generation across global dialects
 - **50% paperwork reduction** - Eliminate administrative friction and focus on patient care
@@ -278,5 +279,3 @@ For issues or questions:
 - Backend issues: See [backend/README.md](backend/README.md)
 - Frontend issues: See [frontend/README.md](frontend/README.md)
 - API specification: See [backend/openapi.yaml](backend/openapi.yaml)
-
-
