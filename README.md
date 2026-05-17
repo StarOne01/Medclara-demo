@@ -1,6 +1,6 @@
-# DocterScribe-EMR Web Platform
+# MedClara-EMR Web Platform
 
-**DocterScribe-EMR** is an AI-powered clinical documentation platform that automatically transcribes doctor-patient conversations in 110+ languages and generates accurate, template-ready medical reports in seconds. Designed for modern, multilingual healthcare practices, DocterScribe-EMR eliminates manual note-taking, reduces administrative burden by 50%, and reclaims 5+ hours of clinician time daily.
+**MedClara-EMR** is an AI-powered clinical documentation platform that automatically transcribes doctor-patient conversations in 110+ languages and generates accurate, template-ready medical reports in seconds. Designed for modern, multilingual healthcare practices, MedClara-EMR eliminates manual note-taking, reduces administrative burden by 50%, and reclaims 5+ hours of clinician time daily.
 
 ### Impact
 
@@ -10,7 +10,7 @@
 - **Medical-grade accuracy** - HIPAA-compliant with confidence scoring and clinical entity extraction
 - **54+ specialty templates** - Cardiology, pediatrics, psychiatry, and more—instantly customizable
 
-DocterScribe-EMR combines a modern Next.js frontend with a robust Go backend powered by Google Vertex AI, delivering seamless integration into existing EHR workflows.
+MedClara-EMR combines a modern Next.js frontend with a robust Go backend powered by Google Vertex AI, delivering seamless integration into existing EHR workflows.
 
 ## 🛠️ Tech Stack
 
