@@ -1,0 +1,9 @@
+version: "2"
+sql:
+  - schema: "db/schema.sql"       # Path to your database schema
+    queries: "db/queries.sql"     # Path to your SQL queries
+    engine: "postgresql"          # Database engine
+    gen:
+      go:
+        package: "db"             # Package name for generated code
+        out: "internal/db"        # Output directory for generated code

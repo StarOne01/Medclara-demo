@@ -1,0 +1,59 @@
+/* Color Utilities - Maps Tailwind classes to CSS variables for brand consistency */
+
+/* Background colors */
+.bg-brand-primary {
+  @apply bg-[--color-background];
+}
+
+.bg-brand-surface {
+  @apply bg-[--surface-base];
+}
+
+.bg-brand-card {
+  @apply bg-[--surface-card];
+}
+
+/* Text colors */
+.text-brand-primary {
+  @apply text-[--text-primary];
+}
+
+.text-brand-secondary {
+  @apply text-[--text-secondary];
+}
+
+.text-brand-tertiary {
+  @apply text-[--text-tertiary];
+}
+
+.text-brand-muted {
+  @apply text-[--text-muted];
+}
+
+/* Border colors */
+.border-brand-subtle {
+  @apply border-[color:var(--border-subtle)];
+}
+
+.border-brand-strong {
+  @apply border-[color:var(--border-strong)];
+}
+
+/* Button colors */
+.btn-primary {
+  @apply bg-[--button-primary-bg] text-[--button-primary-text] hover:opacity-90;
+}
+
+.btn-secondary {
+  @apply bg-[--button-secondary-bg] text-[--button-secondary-text] hover:opacity-90;
+}
+
+/* Input colors */
+.input-primary {
+  @apply bg-[--input-bg] border-[color:var(--input-border)] text-[--input-text] focus:border-[color:var(--input-border-focus)];
+}
+
+/* Shadow */
+.shadow-brand-elevated {
+  box-shadow: var(--shadow-elevated);
+}

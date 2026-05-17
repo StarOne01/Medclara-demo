@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+/uploads
+# Coverage reports
+coverage.out
+*.cover
+*.coverprofile
+
+# Dependency directories
+vendor/
+Godeps/
+Godeps/_workspace
+
+# Go workspace & module cache
+/bin/
+/pkg/
+/pkg/mod/
+
+# Build artifacts
+/build/
+/dist/
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env*
+.env.local
+
+# Tool caches
+.cache/
+.golangci-lint/
+
+service-account.json

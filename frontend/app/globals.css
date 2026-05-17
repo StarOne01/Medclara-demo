@@ -1,0 +1,153 @@
+@import "tailwindcss";
+@import "./color-utilities.css";
+
+:root,
+:root.light {
+  color-scheme: light;
+  
+  /* Brand Colors */
+  --color-background-light: #f8fafc;
+  --color-background-dark: #050505;
+  --color-foreground-light: #0f172a;
+  --color-foreground-dark: #f8fafc;
+  
+  /* Core colors */
+  --color-background: var(--color-background-light);
+  --color-foreground: var(--color-foreground-light);
+  --color-muted: #475569;
+  --color-accent: #2563eb;
+  
+  /* Typography colors */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --text-muted: #94a3b8;
+  
+  /* Surface colors */
+  --surface-base: rgba(255, 255, 255, 0.92);
+  --surface-card: rgba(248, 250, 252, 0.94);
+  --surface-card-hover: rgba(241, 245, 249, 0.9);
+  --surface-card-strong: rgba(226, 232, 240, 0.92);
+  
+  /* Border colors */
+  --border-subtle: rgba(15, 23, 42, 0.12);
+  --border-strong: rgba(15, 23, 42, 0.2);
+  
+  /* Shadows */
+  --shadow-elevated: 0 24px 48px rgba(15, 23, 42, 0.12);
+  
+  /* Button colors */
+  --button-primary-bg: #0f172a;
+  --button-primary-hover: #1e293b;
+  --button-primary-text: white;
+  --button-secondary-bg: rgba(255, 255, 255, 0.92);
+  --button-secondary-hover: rgba(241, 245, 249, 0.9);
+  --button-secondary-text: #0f172a;
+  
+  /* Input colors */
+  --input-bg: rgba(255, 255, 255, 0.92);
+  --input-border: rgba(15, 23, 42, 0.12);
+  --input-border-focus: rgba(15, 23, 42, 0.2);
+  --input-text: #0f172a;
+  
+  /* Status colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+  
+  --font-sans: var(--font-inter);
+}
+
+:root.dark {
+  color-scheme: dark;
+  
+  /* Brand Colors */
+  --color-background: var(--color-background-dark);
+  --color-foreground: var(--color-foreground-dark);
+  --color-muted: #a1a1aa;
+  --color-accent: #6366f1;
+  
+  /* Typography colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+  --text-muted: #64748b;
+  
+  /* Surface colors */
+  --surface-base: rgba(12, 12, 14, 0.92);
+  --surface-card: rgba(24, 24, 28, 0.75);
+  --surface-card-hover: rgba(40, 40, 48, 0.85);
+  --surface-card-strong: rgba(20, 20, 24, 0.92);
+  
+  /* Border colors */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  
+  /* Shadows */
+  --shadow-elevated: 0 24px 48px rgba(0, 0, 0, 0.45);
+  
+  /* Button colors */
+  --button-primary-bg: #f8fafc;
+  --button-primary-hover: #e2e8f0;
+  --button-primary-text: #0f172a;
+  --button-secondary-bg: rgba(12, 12, 14, 0.92);
+  --button-secondary-hover: rgba(24, 24, 28, 0.75);
+  --button-secondary-text: #f8fafc;
+  
+  /* Input colors */
+  --input-bg: rgba(15, 23, 42, 0.2);
+  --input-border: rgba(255, 255, 255, 0.08);
+  --input-border-focus: rgba(255, 255, 255, 0.16);
+  --input-text: #f8fafc;
+  
+  /* Status colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+}
+
+html {
+  min-height: 100%;
+  scroll-padding-top: 6rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 5.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+::selection {
+  background-color: rgba(99, 102, 241, 0.35);
+  color: var(--color-foreground);
+}
+
+a {
+  color: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+}
