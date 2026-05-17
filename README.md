@@ -12,6 +12,30 @@
 
 DocterScribe-EMR combines a modern Next.js frontend with a robust Go backend powered by Google Vertex AI, delivering seamless integration into existing EHR workflows.
 
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js 15** - React 19 with App Router for server-side rendering and static site generation
+- **TypeScript** - Type-safe component and API interactions
+- **Tailwind CSS** - Utility-first CSS framework for responsive design
+- **Supabase** - Real-time database and authentication integration
+- **Framer Motion** - Smooth animations and micro-interactions
+
+### Backend
+
+- **Go 1.24+** - High-performance concurrent API server
+- **PostgreSQL 14+** - Relational database with 11 core tables
+- **sqlc** - Compile-time SQL query validation with type safety
+- **Google Vertex AI Gemini 2.5 Flash** - AI-powered transcription and clinical analysis
+- **JWT Authentication** - Secure token-based authorization
+- **Gin Web Framework** - Fast HTTP request routing and middleware
+
+### Infrastructure & Deployment
+
+- **Docker** - Containerized backend and frontend deployment
+- **CORS & Rate Limiting** - Security and scalability middleware
+
 ## ✨ Key Features
 
 ### Clinical Documentation
