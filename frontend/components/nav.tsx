@@ -6,7 +6,6 @@ import { ThemeToggle } from "@/components/theme-toggle";
 const navigation = [
   { label: "Home", href: "/#home" },
   { label: "How It Works", href: "/#how-it-works" },
-  { label: "Team", href: "/team" },
   { label: "Contact", href: "/contact" },
   { label: "Clara", href: "/scribe" },
 ];
